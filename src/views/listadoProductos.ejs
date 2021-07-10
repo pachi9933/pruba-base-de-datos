@@ -1,0 +1,14 @@
+
+
+<h1>listado de Productos</h1>
+<ul>
+    <%for (let i=0; i < productJson.length; i++){%>
+         <li>
+             <%productJson[i].id%>
+             <%productJson[i].autor%>
+             <%productJson[i].texto%>
+
+         </li>
+       <%}%>
+
+</ul>
